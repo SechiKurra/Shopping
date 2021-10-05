@@ -11,7 +11,7 @@ public class NewTestNG {
   public void f() {
 	  System.setProperty("webdriver.chrome.driver","D:/chromedriver.exe");
 	  WebDriver driver= new ChromeDriver();
-	  driver.get("http://google.com");
+	  driver.get("http://google.com ");
 	  String site=driver.getTitle();
 	 
 	  Assert.assertEquals(site,"Google");
